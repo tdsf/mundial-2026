@@ -158,24 +158,29 @@ Os calendários subscritos atualizam automaticamente. Quando os emparelhamentos 
 ## Para desenvolvedores
 
 ```
-data/teams.json      mapa nome PT → ISO + emoji bandeira
-data/matches.json    104 jogos (fonte da verdade)
-scripts/generate.py  lê os JSONs e gera docs/mundial-2026.ics + docs/index.html
-scripts/parse_legacy.py  one-shot: converte ICS legacy em matches.json
+data/teams.json        mapa nome PT → ISO + emoji + abbr ESPN
+data/matches.json      104 jogos (fonte da verdade); fetch_results.py escreve scores/status/external_id
+data/channels_pt.json  canais portugueses por id de match (manual)
+scripts/fetch_results.py   busca ESPN scoreboard e actualiza matches.json
+scripts/generate.py    lê os JSONs e gera docs/mundial-2026.ics + docs/index.html
+scripts/parse_legacy.py    one-shot histórico — já não usado
 ```
 
 Regerar local:
 ```bash
+python3 scripts/fetch_results.py   # opcional, atualiza scores
 python3 scripts/generate.py
 ```
 
-CI: cada push que toque em `data/` ou `scripts/` corre o generator e committa `docs/`.
+CI:
+- `refresh.yml` corre de 4 em 4 horas, faz fetch + generate e committa se houver mudanças.
+- `build.yml` corre em push manual a `data/` ou `scripts/`.
 
 ## Fontes
 
-- **Calendário e estádios:** [FIFA](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/schedule)
-- **Canais portugueses:** [Sport TV](https://www.sporttv.pt/)
-- **Dados iniciais:** [jpgcc/calendario-mundial-2026](https://github.com/jpgcc/calendario-mundial-2026) (CC0)
+- **Calendário, equipas e resultados:** [ESPN](https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard) (API hidden, sem auth)
+- **Estádios oficiais:** [FIFA](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/schedule)
+- **Canais portugueses:** [Sport TV](https://www.sporttv.pt/) (mantidos manualmente em `data/channels_pt.json`)
 
 ## Licença
 

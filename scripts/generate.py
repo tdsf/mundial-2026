@@ -21,26 +21,39 @@ REPO_URL = "https://github.com/tdsf/mundial-2026"
 GENERIC_FLAG = "⚽"
 
 
-def load() -> tuple[dict, list[dict]]:
+def load() -> tuple[dict, list[dict], dict]:
     teams = json.loads((DATA / "teams.json").read_text(encoding="utf-8"))
     teams.pop("_comment", None)
     payload = json.loads((DATA / "matches.json").read_text(encoding="utf-8"))
-    return teams, payload["matches"]
+    channels = json.loads((DATA / "channels_pt.json").read_text(encoding="utf-8"))["channels"]
+    return teams, payload["matches"], channels
 
 
 def flag_for(team: str, teams: dict) -> str:
     return teams.get(team, {}).get("flag", GENERIC_FLAG)
 
 
+def score_segment(m: dict) -> str:
+    """'x' por defeito, 'sh-sa' quando o jogo já jogou ou está live."""
+    if m.get("status") in ("live", "final") and m.get("score_home") is not None and m.get("score_away") is not None:
+        return f"{m['score_home']}-{m['score_away']}"
+    return "x"
+
+
 def event_title(m: dict, teams: dict) -> str:
-    """Formato: 🇵🇹 x 🇧🇷 - Portugal vs Brasil (Grupo A)"""
+    """Formato: 🇵🇹 2-1 🇧🇷 - Portugal vs Brasil (Grupo K) [🔴 LIVE]"""
     fh, fa = flag_for(m["home"], teams), flag_for(m["away"], teams)
-    base = f"{fh} x {fa} - {m['home']} vs {m['away']}"
+    sep = score_segment(m)
+    base = f"{fh} {sep} {fa} - {m['home']} vs {m['away']}"
     if m["stage"] == "group":
-        return f"{base} (Grupo {m['group']})"
-    if m["stage"] == "final":
-        return f"🏆 FINAL — {fh} x {fa} - {m['home']} vs {m['away']}"
-    return f"{base} ({m['stage_label_pt']})"
+        title = f"{base} (Grupo {m['group']})"
+    elif m["stage"] == "final":
+        title = f"🏆 FINAL — {fh} {sep} {fa} - {m['home']} vs {m['away']}"
+    else:
+        title = f"{base} ({m['stage_label_pt']})"
+    if m.get("status") == "live":
+        title += " 🔴 LIVE"
+    return title
 
 
 def parse_kickoff(m: dict) -> datetime:
@@ -105,7 +118,7 @@ def fold(line: str) -> str:
     return out[0] + "".join("\r\n " + c for c in out[1:])
 
 
-def emit_event(m: dict, teams: dict) -> str:
+def emit_event(m: dict, teams: dict, channels: dict) -> str:
     uid = f"mundial2026-{m['id']:03d}@tdsf.github.io"
     dtstamp = datetime.now(tz=ZoneInfo("UTC")).strftime("%Y%m%dT%H%M%SZ")
     summary = event_title(m, teams)
@@ -120,9 +133,13 @@ def emit_event(m: dict, teams: dict) -> str:
         desc_lines[-1] = desc_lines[-1][:-1] + " (jornada simultânea)."
     if m["all_day"]:
         desc_lines.append("Hora a confirmar.")
-    if m["channels_pt"]:
-        desc_lines.append("Transmissão: " + ", ".join(m["channels_pt"]) + ".")
-    desc_lines.append(f"Fonte: FIFA — {REPO_URL}")
+    if m.get("status") in ("live", "final") and m.get("score_home") is not None:
+        label = "Resultado" if m["status"] == "final" else "Em jogo"
+        desc_lines.append(f"{label}: {m['home']} {m['score_home']}–{m['score_away']} {m['away']}.")
+    chs = channels.get(str(m["id"]), [])
+    if chs:
+        desc_lines.append("Transmissão: " + ", ".join(chs) + ".")
+    desc_lines.append(f"Fonte: ESPN/FIFA — {REPO_URL}")
     description = "\n".join(desc_lines)
 
     location = m["location"]
@@ -152,11 +169,11 @@ def emit_event(m: dict, teams: dict) -> str:
     return "\r\n".join(fold(l) for l in lines) + "\r\n"
 
 
-def write_ics(matches: list[dict], teams: dict) -> None:
+def write_ics(matches: list[dict], teams: dict, channels: dict) -> None:
     out = DOCS / "mundial-2026.ics"
     parts = [ICS_HEADER.replace("\n", "\r\n")]
     for m in matches:
-        parts.append(emit_event(m, teams))
+        parts.append(emit_event(m, teams, channels))
     parts.append("END:VCALENDAR\r\n")
     out.write_text("".join(parts), encoding="utf-8")
     print(f"escrito {out.relative_to(ROOT)} ({len(matches)} eventos)")
@@ -215,7 +232,7 @@ PAGE_TMPL = """<!doctype html>
 </section>
 
 <footer>
-  <p><strong>Fontes:</strong> calendário e estádios da <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026">FIFA</a>; canais portugueses da <a href="https://www.sporttv.pt/">Sport TV</a>. Dados iniciais de <a href="https://github.com/jpgcc/calendario-mundial-2026">jpgcc/calendario-mundial-2026</a>.</p>
+  <p><strong>Fontes:</strong> calendário, equipas e resultados via <a href="https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard">ESPN</a>; estádios oficiais da <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026">FIFA</a>; canais portugueses da <a href="https://www.sporttv.pt/">Sport TV</a> (manuais).</p>
   <p>Licença CC0 · <a href="{repo}">código no GitHub</a> · gerado em {gen}</p>
 </footer>
 
@@ -231,7 +248,7 @@ document.getElementById('copy-btn').addEventListener('click', async (e) => {{
 """
 
 
-def render_match_row(m: dict, teams: dict) -> str:
+def render_match_row(m: dict, teams: dict, channels: dict) -> str:
     is_pt = "Portugal" in (m["home"], m["away"])
     fh, fa = flag_for(m["home"], teams), flag_for(m["away"], teams)
     if m["all_day"]:
@@ -241,8 +258,15 @@ def render_match_row(m: dict, teams: dict) -> str:
     stage = m["stage_label_pt"] or ""
     if m["stage"] == "final":
         stage = "FINAL 🏆"
-    teams_html = f'<span class="flag">{html.escape(fh)}</span> {html.escape(m["home"])} <span class="vs">vs</span> <span class="flag">{html.escape(fa)}</span> {html.escape(m["away"])}'
-    channels = ", ".join(html.escape(c) for c in m["channels_pt"]) or "—"
+    if m.get("status") in ("live", "final") and m.get("score_home") is not None:
+        sep = f'<strong class="score">{m["score_home"]}–{m["score_away"]}</strong>'
+        if m["status"] == "live":
+            sep += ' <span class="live">🔴 LIVE</span>'
+    else:
+        sep = '<span class="vs">vs</span>'
+    teams_html = f'<span class="flag">{html.escape(fh)}</span> {html.escape(m["home"])} {sep} <span class="flag">{html.escape(fa)}</span> {html.escape(m["away"])}'
+    chs = channels.get(str(m["id"]), [])
+    channels_html = ", ".join(html.escape(c) for c in chs) or "—"
     cls = "match pt" if is_pt else "match"
     return (
         f'<tr class="{cls}">'
@@ -250,7 +274,7 @@ def render_match_row(m: dict, teams: dict) -> str:
         f'<td class="teams">{teams_html}</td>'
         f'<td class="stage">{html.escape(stage)}</td>'
         f'<td class="loc">{html.escape(m["location"])}</td>'
-        f'<td class="ch">{channels}</td>'
+        f'<td class="ch">{channels_html}</td>'
         f'</tr>'
     )
 
@@ -263,7 +287,7 @@ def fmt_date(d) -> str:
     return f"{WEEKDAYS_PT[d.weekday()]}, {d.day} {MONTHS_PT[d.month - 1]} {d.year}"
 
 
-def render_tables(matches: list[dict], teams: dict) -> str:
+def render_tables(matches: list[dict], teams: dict, channels: dict) -> str:
     # agrupar por data Lisboa
     groups: dict = {}
     for m in matches:
@@ -273,7 +297,7 @@ def render_tables(matches: list[dict], teams: dict) -> str:
 
     parts = []
     for day in sorted(groups):
-        rows = "\n".join(render_match_row(m, teams) for m in groups[day])
+        rows = "\n".join(render_match_row(m, teams, channels) for m in groups[day])
         parts.append(
             f"<h3>{fmt_date(day)}</h3>"
             f'<table class="matches"><thead><tr>'
@@ -283,13 +307,13 @@ def render_tables(matches: list[dict], teams: dict) -> str:
     return "\n".join(parts)
 
 
-def write_html(matches: list[dict], teams: dict) -> None:
+def write_html(matches: list[dict], teams: dict, channels: dict) -> None:
     out = DOCS / "index.html"
     page = PAGE_TMPL.format(
         sub_url=SUB_URL,
         repo=REPO_URL,
         n=len(matches),
-        tables=render_tables(matches, teams),
+        tables=render_tables(matches, teams, channels),
         gen=datetime.now(LX).strftime("%Y-%m-%d %H:%M %Z"),
     )
     out.write_text(page, encoding="utf-8")
@@ -298,9 +322,9 @@ def write_html(matches: list[dict], teams: dict) -> None:
 
 def main() -> None:
     DOCS.mkdir(exist_ok=True)
-    teams, matches = load()
-    write_ics(matches, teams)
-    write_html(matches, teams)
+    teams, matches, channels = load()
+    write_ics(matches, teams, channels)
+    write_html(matches, teams, channels)
 
 
 if __name__ == "__main__":

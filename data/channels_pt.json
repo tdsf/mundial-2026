@@ -1,0 +1,336 @@
+{
+  "_comment": "Canais portugueses por id de match. Mantido manualmente — o fetcher da ESPN não toca neste ficheiro.",
+  "channels": {
+    "1": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "2": [
+      "Sport TV"
+    ],
+    "3": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "4": [
+      "Sport TV"
+    ],
+    "5": [
+      "Sport TV"
+    ],
+    "6": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "7": [
+      "Sport TV"
+    ],
+    "8": [
+      "Sport TV"
+    ],
+    "9": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "10": [
+      "Sport TV"
+    ],
+    "11": [
+      "Sport TV"
+    ],
+    "12": [
+      "Sport TV"
+    ],
+    "13": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "14": [
+      "Sport TV"
+    ],
+    "15": [
+      "Sport TV"
+    ],
+    "16": [
+      "Sport TV"
+    ],
+    "17": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "18": [
+      "Sport TV"
+    ],
+    "19": [
+      "Sport TV"
+    ],
+    "20": [
+      "Sport TV"
+    ],
+    "21": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "22": [
+      "Sport TV"
+    ],
+    "23": [
+      "Sport TV"
+    ],
+    "24": [
+      "Sport TV"
+    ],
+    "25": [
+      "Sport TV"
+    ],
+    "26": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "27": [
+      "Sport TV"
+    ],
+    "28": [
+      "Sport TV"
+    ],
+    "29": [
+      "Sport TV"
+    ],
+    "30": [
+      "Sport TV"
+    ],
+    "31": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "32": [
+      "Sport TV"
+    ],
+    "33": [
+      "Sport TV"
+    ],
+    "34": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "35": [
+      "Sport TV"
+    ],
+    "36": [
+      "Sport TV"
+    ],
+    "37": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "38": [
+      "Sport TV"
+    ],
+    "39": [
+      "Sport TV"
+    ],
+    "40": [
+      "Sport TV"
+    ],
+    "41": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "42": [
+      "Sport TV"
+    ],
+    "43": [
+      "Sport TV"
+    ],
+    "44": [
+      "Sport TV"
+    ],
+    "45": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "46": [
+      "Sport TV"
+    ],
+    "47": [
+      "Sport TV"
+    ],
+    "48": [
+      "Sport TV"
+    ],
+    "49": [
+      "Sport TV"
+    ],
+    "50": [
+      "Sport TV"
+    ],
+    "51": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "52": [
+      "Sport TV"
+    ],
+    "53": [
+      "Sport TV"
+    ],
+    "54": [
+      "Sport TV"
+    ],
+    "55": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "56": [
+      "Sport TV"
+    ],
+    "57": [
+      "Sport TV"
+    ],
+    "58": [
+      "Sport TV"
+    ],
+    "59": [
+      "Sport TV"
+    ],
+    "60": [
+      "Sport TV"
+    ],
+    "61": [
+      "Sport TV"
+    ],
+    "62": [
+      "Sport TV"
+    ],
+    "63": [
+      "Sport TV"
+    ],
+    "64": [
+      "Sport TV"
+    ],
+    "65": [
+      "Sport TV"
+    ],
+    "66": [
+      "Sport TV"
+    ],
+    "67": [
+      "Sport TV"
+    ],
+    "68": [
+      "Sport TV"
+    ],
+    "69": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "70": [
+      "Sport TV"
+    ],
+    "71": [
+      "Sport TV"
+    ],
+    "72": [
+      "Sport TV"
+    ],
+    "73": [
+      "Sport TV"
+    ],
+    "74": [
+      "Sport TV"
+    ],
+    "75": [
+      "Sport TV"
+    ],
+    "76": [
+      "Sport TV"
+    ],
+    "77": [
+      "Sport TV"
+    ],
+    "78": [
+      "Sport TV"
+    ],
+    "79": [
+      "Sport TV"
+    ],
+    "80": [
+      "Sport TV"
+    ],
+    "81": [
+      "Sport TV"
+    ],
+    "82": [
+      "Sport TV"
+    ],
+    "83": [
+      "Sport TV"
+    ],
+    "84": [
+      "Sport TV"
+    ],
+    "85": [
+      "Sport TV"
+    ],
+    "86": [
+      "Sport TV"
+    ],
+    "87": [
+      "Sport TV"
+    ],
+    "88": [
+      "Sport TV"
+    ],
+    "89": [
+      "Sport TV"
+    ],
+    "90": [
+      "Sport TV"
+    ],
+    "91": [
+      "Sport TV"
+    ],
+    "92": [
+      "Sport TV"
+    ],
+    "93": [
+      "Sport TV"
+    ],
+    "94": [
+      "Sport TV"
+    ],
+    "95": [
+      "Sport TV"
+    ],
+    "96": [
+      "Sport TV"
+    ],
+    "97": [
+      "Sport TV"
+    ],
+    "98": [
+      "Sport TV"
+    ],
+    "99": [
+      "Sport TV"
+    ],
+    "100": [
+      "Sport TV"
+    ],
+    "101": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "102": [
+      "Sport TV",
+      "Livemode"
+    ],
+    "103": [
+      "Sport TV"
+    ],
+    "104": [
+      "Sport TV",
+      "Livemode"
+    ]
+  }
+}
