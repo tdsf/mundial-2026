@@ -27,6 +27,7 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/matches.json docs/
             git commit -m "auto: refresh results [skip ci]"
+            git pull --rebase
             git push
           else
             echo "no changes"
