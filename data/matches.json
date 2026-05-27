@@ -1,0 +1,2182 @@
+{
+  "source": "https://github.com/jpgcc/calendario-mundial-2026",
+  "official_source": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/schedule",
+  "tz": "Europe/Lisbon",
+  "generated_from_legacy_at": "2026-05-27T19:59:03.658817+01:00",
+  "matches": [
+    {
+      "id": 1,
+      "uid_legacy": "mundial2026-001@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo A",
+      "group": "A",
+      "home": "México",
+      "away": "África do Sul",
+      "kickoff_local": "2026-06-11T20:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Cidade do México, México",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo A"
+      ]
+    },
+    {
+      "id": 2,
+      "uid_legacy": "mundial2026-002@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo A",
+      "group": "A",
+      "home": "Coreia do Sul",
+      "away": "República Checa",
+      "kickoff_local": "2026-06-12T03:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo A"
+      ]
+    },
+    {
+      "id": 3,
+      "uid_legacy": "mundial2026-003@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo B",
+      "group": "B",
+      "home": "Canadá",
+      "away": "Bósnia-Herzegovina",
+      "kickoff_local": "2026-06-12T20:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Canadá",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo B"
+      ]
+    },
+    {
+      "id": 4,
+      "uid_legacy": "mundial2026-004@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo D",
+      "group": "D",
+      "home": "EUA",
+      "away": "Paraguai",
+      "kickoff_local": "2026-06-13T02:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo D"
+      ]
+    },
+    {
+      "id": 5,
+      "uid_legacy": "mundial2026-005@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo B",
+      "group": "B",
+      "home": "Catar",
+      "away": "Suíça",
+      "kickoff_local": "2026-06-13T20:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Canadá",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo B"
+      ]
+    },
+    {
+      "id": 6,
+      "uid_legacy": "mundial2026-006@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo C",
+      "group": "C",
+      "home": "Brasil",
+      "away": "Marrocos",
+      "kickoff_local": "2026-06-13T23:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo C"
+      ]
+    },
+    {
+      "id": 7,
+      "uid_legacy": "mundial2026-007@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo C",
+      "group": "C",
+      "home": "Haiti",
+      "away": "Escócia",
+      "kickoff_local": "2026-06-14T02:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo C"
+      ]
+    },
+    {
+      "id": 8,
+      "uid_legacy": "mundial2026-008@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo D",
+      "group": "D",
+      "home": "Austrália",
+      "away": "Turquia",
+      "kickoff_local": "2026-06-14T05:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo D"
+      ]
+    },
+    {
+      "id": 9,
+      "uid_legacy": "mundial2026-009@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo E",
+      "group": "E",
+      "home": "Alemanha",
+      "away": "Curaçau",
+      "kickoff_local": "2026-06-14T18:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo E"
+      ]
+    },
+    {
+      "id": 10,
+      "uid_legacy": "mundial2026-010@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo F",
+      "group": "F",
+      "home": "Países Baixos",
+      "away": "Japão",
+      "kickoff_local": "2026-06-14T21:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo F"
+      ]
+    },
+    {
+      "id": 11,
+      "uid_legacy": "mundial2026-011@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo E",
+      "group": "E",
+      "home": "Costa do Marfim",
+      "away": "Equador",
+      "kickoff_local": "2026-06-15T00:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo E"
+      ]
+    },
+    {
+      "id": 12,
+      "uid_legacy": "mundial2026-012@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo F",
+      "group": "F",
+      "home": "Suécia",
+      "away": "Tunísia",
+      "kickoff_local": "2026-06-15T03:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo F"
+      ]
+    },
+    {
+      "id": 13,
+      "uid_legacy": "mundial2026-013@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo H",
+      "group": "H",
+      "home": "Espanha",
+      "away": "Cabo Verde",
+      "kickoff_local": "2026-06-15T17:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo H"
+      ]
+    },
+    {
+      "id": 14,
+      "uid_legacy": "mundial2026-014@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo G",
+      "group": "G",
+      "home": "Bélgica",
+      "away": "Egito",
+      "kickoff_local": "2026-06-15T20:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo G"
+      ]
+    },
+    {
+      "id": 15,
+      "uid_legacy": "mundial2026-015@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo H",
+      "group": "H",
+      "home": "Arábia Saudita",
+      "away": "Uruguai",
+      "kickoff_local": "2026-06-15T23:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo H"
+      ]
+    },
+    {
+      "id": 16,
+      "uid_legacy": "mundial2026-016@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo G",
+      "group": "G",
+      "home": "Irão",
+      "away": "Nova Zelândia",
+      "kickoff_local": "2026-06-16T02:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo G"
+      ]
+    },
+    {
+      "id": 17,
+      "uid_legacy": "mundial2026-017@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo I",
+      "group": "I",
+      "home": "França",
+      "away": "Senegal",
+      "kickoff_local": "2026-06-16T20:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo I"
+      ]
+    },
+    {
+      "id": 18,
+      "uid_legacy": "mundial2026-018@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo I",
+      "group": "I",
+      "home": "Iraque",
+      "away": "Noruega",
+      "kickoff_local": "2026-06-16T23:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo I"
+      ]
+    },
+    {
+      "id": 19,
+      "uid_legacy": "mundial2026-019@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo J",
+      "group": "J",
+      "home": "Argentina",
+      "away": "Argélia",
+      "kickoff_local": "2026-06-17T02:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo J"
+      ]
+    },
+    {
+      "id": 20,
+      "uid_legacy": "mundial2026-020@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo J",
+      "group": "J",
+      "home": "Áustria",
+      "away": "Jordânia",
+      "kickoff_local": "2026-06-17T05:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo J"
+      ]
+    },
+    {
+      "id": 21,
+      "uid_legacy": "mundial2026-021@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo K",
+      "group": "K",
+      "home": "Portugal",
+      "away": "RD Congo",
+      "kickoff_local": "2026-06-17T18:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Houston, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo K",
+        "Portugal"
+      ]
+    },
+    {
+      "id": 22,
+      "uid_legacy": "mundial2026-022@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo L",
+      "group": "L",
+      "home": "Inglaterra",
+      "away": "Croácia",
+      "kickoff_local": "2026-06-17T21:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo L"
+      ]
+    },
+    {
+      "id": 23,
+      "uid_legacy": "mundial2026-023@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo L",
+      "group": "L",
+      "home": "Gana",
+      "away": "Panamá",
+      "kickoff_local": "2026-06-18T00:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo L"
+      ]
+    },
+    {
+      "id": 24,
+      "uid_legacy": "mundial2026-024@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo K",
+      "group": "K",
+      "home": "Uzbequistão",
+      "away": "Colômbia",
+      "kickoff_local": "2026-06-18T03:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo K"
+      ]
+    },
+    {
+      "id": 25,
+      "uid_legacy": "mundial2026-025@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo A",
+      "group": "A",
+      "home": "República Checa",
+      "away": "África do Sul",
+      "kickoff_local": "2026-06-18T17:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo A"
+      ]
+    },
+    {
+      "id": 26,
+      "uid_legacy": "mundial2026-026@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo B",
+      "group": "B",
+      "home": "Suíça",
+      "away": "Bósnia-Herzegovina",
+      "kickoff_local": "2026-06-18T20:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Canadá",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo B"
+      ]
+    },
+    {
+      "id": 27,
+      "uid_legacy": "mundial2026-027@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo B",
+      "group": "B",
+      "home": "Canadá",
+      "away": "Catar",
+      "kickoff_local": "2026-06-18T23:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Canadá",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo B"
+      ]
+    },
+    {
+      "id": 28,
+      "uid_legacy": "mundial2026-028@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo A",
+      "group": "A",
+      "home": "México",
+      "away": "Coreia do Sul",
+      "kickoff_local": "2026-06-19T02:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "México",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo A"
+      ]
+    },
+    {
+      "id": 29,
+      "uid_legacy": "mundial2026-029@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo D",
+      "group": "D",
+      "home": "EUA",
+      "away": "Austrália",
+      "kickoff_local": "2026-06-19T20:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo D"
+      ]
+    },
+    {
+      "id": 30,
+      "uid_legacy": "mundial2026-030@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo C",
+      "group": "C",
+      "home": "Escócia",
+      "away": "Marrocos",
+      "kickoff_local": "2026-06-19T23:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo C"
+      ]
+    },
+    {
+      "id": 31,
+      "uid_legacy": "mundial2026-031@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo C",
+      "group": "C",
+      "home": "Brasil",
+      "away": "Haiti",
+      "kickoff_local": "2026-06-20T01:30:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo C"
+      ]
+    },
+    {
+      "id": 32,
+      "uid_legacy": "mundial2026-032@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo D",
+      "group": "D",
+      "home": "Turquia",
+      "away": "Paraguai",
+      "kickoff_local": "2026-06-20T04:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo D"
+      ]
+    },
+    {
+      "id": 33,
+      "uid_legacy": "mundial2026-033@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo F",
+      "group": "F",
+      "home": "Países Baixos",
+      "away": "Suécia",
+      "kickoff_local": "2026-06-20T18:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo F"
+      ]
+    },
+    {
+      "id": 34,
+      "uid_legacy": "mundial2026-034@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo E",
+      "group": "E",
+      "home": "Alemanha",
+      "away": "Costa do Marfim",
+      "kickoff_local": "2026-06-20T21:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo E"
+      ]
+    },
+    {
+      "id": 35,
+      "uid_legacy": "mundial2026-035@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo E",
+      "group": "E",
+      "home": "Equador",
+      "away": "Curaçau",
+      "kickoff_local": "2026-06-21T01:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo E"
+      ]
+    },
+    {
+      "id": 36,
+      "uid_legacy": "mundial2026-036@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo F",
+      "group": "F",
+      "home": "Tunísia",
+      "away": "Japão",
+      "kickoff_local": "2026-06-21T05:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo F"
+      ]
+    },
+    {
+      "id": 37,
+      "uid_legacy": "mundial2026-037@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo H",
+      "group": "H",
+      "home": "Espanha",
+      "away": "Arábia Saudita",
+      "kickoff_local": "2026-06-21T17:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo H"
+      ]
+    },
+    {
+      "id": 38,
+      "uid_legacy": "mundial2026-038@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo G",
+      "group": "G",
+      "home": "Bélgica",
+      "away": "Irão",
+      "kickoff_local": "2026-06-21T20:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo G"
+      ]
+    },
+    {
+      "id": 39,
+      "uid_legacy": "mundial2026-039@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo H",
+      "group": "H",
+      "home": "Uruguai",
+      "away": "Cabo Verde",
+      "kickoff_local": "2026-06-21T23:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo H"
+      ]
+    },
+    {
+      "id": 40,
+      "uid_legacy": "mundial2026-040@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo G",
+      "group": "G",
+      "home": "Nova Zelândia",
+      "away": "Egito",
+      "kickoff_local": "2026-06-22T02:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo G"
+      ]
+    },
+    {
+      "id": 41,
+      "uid_legacy": "mundial2026-041@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo J",
+      "group": "J",
+      "home": "Argentina",
+      "away": "Áustria",
+      "kickoff_local": "2026-06-22T18:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo J"
+      ]
+    },
+    {
+      "id": 42,
+      "uid_legacy": "mundial2026-042@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo I",
+      "group": "I",
+      "home": "França",
+      "away": "Iraque",
+      "kickoff_local": "2026-06-22T22:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo I"
+      ]
+    },
+    {
+      "id": 43,
+      "uid_legacy": "mundial2026-043@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo I",
+      "group": "I",
+      "home": "Noruega",
+      "away": "Senegal",
+      "kickoff_local": "2026-06-23T01:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo I"
+      ]
+    },
+    {
+      "id": 44,
+      "uid_legacy": "mundial2026-044@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo J",
+      "group": "J",
+      "home": "Jordânia",
+      "away": "Argélia",
+      "kickoff_local": "2026-06-23T04:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo J"
+      ]
+    },
+    {
+      "id": 45,
+      "uid_legacy": "mundial2026-045@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo K",
+      "group": "K",
+      "home": "Portugal",
+      "away": "Uzbequistão",
+      "kickoff_local": "2026-06-23T18:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Houston, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo K",
+        "Portugal"
+      ]
+    },
+    {
+      "id": 46,
+      "uid_legacy": "mundial2026-046@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo L",
+      "group": "L",
+      "home": "Inglaterra",
+      "away": "Gana",
+      "kickoff_local": "2026-06-23T21:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo L"
+      ]
+    },
+    {
+      "id": 47,
+      "uid_legacy": "mundial2026-047@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo L",
+      "group": "L",
+      "home": "Panamá",
+      "away": "Croácia",
+      "kickoff_local": "2026-06-24T00:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo L"
+      ]
+    },
+    {
+      "id": 48,
+      "uid_legacy": "mundial2026-048@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo K",
+      "group": "K",
+      "home": "Colômbia",
+      "away": "RD Congo",
+      "kickoff_local": "2026-06-24T03:00:00+01:00",
+      "all_day": false,
+      "simultaneous": false,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo K"
+      ]
+    },
+    {
+      "id": 49,
+      "uid_legacy": "mundial2026-049@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo B",
+      "group": "B",
+      "home": "Suíça",
+      "away": "Canadá",
+      "kickoff_local": "2026-06-24T20:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Canadá",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo B"
+      ]
+    },
+    {
+      "id": 50,
+      "uid_legacy": "mundial2026-050@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo B",
+      "group": "B",
+      "home": "Bósnia-Herzegovina",
+      "away": "Catar",
+      "kickoff_local": "2026-06-24T20:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo B"
+      ]
+    },
+    {
+      "id": 51,
+      "uid_legacy": "mundial2026-051@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo C",
+      "group": "C",
+      "home": "Escócia",
+      "away": "Brasil",
+      "kickoff_local": "2026-06-24T23:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo C"
+      ]
+    },
+    {
+      "id": 52,
+      "uid_legacy": "mundial2026-052@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo C",
+      "group": "C",
+      "home": "Marrocos",
+      "away": "Haiti",
+      "kickoff_local": "2026-06-24T23:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo C"
+      ]
+    },
+    {
+      "id": 53,
+      "uid_legacy": "mundial2026-053@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo A",
+      "group": "A",
+      "home": "República Checa",
+      "away": "México",
+      "kickoff_local": "2026-06-25T02:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "México",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo A"
+      ]
+    },
+    {
+      "id": 54,
+      "uid_legacy": "mundial2026-054@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo A",
+      "group": "A",
+      "home": "África do Sul",
+      "away": "Coreia do Sul",
+      "kickoff_local": "2026-06-25T02:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo A"
+      ]
+    },
+    {
+      "id": 55,
+      "uid_legacy": "mundial2026-055@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo E",
+      "group": "E",
+      "home": "Equador",
+      "away": "Alemanha",
+      "kickoff_local": "2026-06-25T21:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo E"
+      ]
+    },
+    {
+      "id": 56,
+      "uid_legacy": "mundial2026-056@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo E",
+      "group": "E",
+      "home": "Curaçau",
+      "away": "Costa do Marfim",
+      "kickoff_local": "2026-06-25T21:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo E"
+      ]
+    },
+    {
+      "id": 57,
+      "uid_legacy": "mundial2026-057@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo F",
+      "group": "F",
+      "home": "Japão",
+      "away": "Suécia",
+      "kickoff_local": "2026-06-26T00:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo F"
+      ]
+    },
+    {
+      "id": 58,
+      "uid_legacy": "mundial2026-058@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo F",
+      "group": "F",
+      "home": "Tunísia",
+      "away": "Países Baixos",
+      "kickoff_local": "2026-06-26T00:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo F"
+      ]
+    },
+    {
+      "id": 59,
+      "uid_legacy": "mundial2026-059@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo D",
+      "group": "D",
+      "home": "Turquia",
+      "away": "EUA",
+      "kickoff_local": "2026-06-26T03:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo D"
+      ]
+    },
+    {
+      "id": 60,
+      "uid_legacy": "mundial2026-060@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo D",
+      "group": "D",
+      "home": "Paraguai",
+      "away": "Austrália",
+      "kickoff_local": "2026-06-26T03:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo D"
+      ]
+    },
+    {
+      "id": 61,
+      "uid_legacy": "mundial2026-061@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo I",
+      "group": "I",
+      "home": "Noruega",
+      "away": "França",
+      "kickoff_local": "2026-06-26T20:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo I"
+      ]
+    },
+    {
+      "id": 62,
+      "uid_legacy": "mundial2026-062@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo I",
+      "group": "I",
+      "home": "Senegal",
+      "away": "Iraque",
+      "kickoff_local": "2026-06-26T20:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo I"
+      ]
+    },
+    {
+      "id": 63,
+      "uid_legacy": "mundial2026-063@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo H",
+      "group": "H",
+      "home": "Cabo Verde",
+      "away": "Arábia Saudita",
+      "kickoff_local": "2026-06-27T01:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo H"
+      ]
+    },
+    {
+      "id": 64,
+      "uid_legacy": "mundial2026-064@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo H",
+      "group": "H",
+      "home": "Uruguai",
+      "away": "Espanha",
+      "kickoff_local": "2026-06-27T01:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo H"
+      ]
+    },
+    {
+      "id": 65,
+      "uid_legacy": "mundial2026-065@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo G",
+      "group": "G",
+      "home": "Egito",
+      "away": "Irão",
+      "kickoff_local": "2026-06-27T04:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo G"
+      ]
+    },
+    {
+      "id": 66,
+      "uid_legacy": "mundial2026-066@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo G",
+      "group": "G",
+      "home": "Nova Zelândia",
+      "away": "Bélgica",
+      "kickoff_local": "2026-06-27T04:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo G"
+      ]
+    },
+    {
+      "id": 67,
+      "uid_legacy": "mundial2026-067@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo L",
+      "group": "L",
+      "home": "Panamá",
+      "away": "Inglaterra",
+      "kickoff_local": "2026-06-27T22:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo L"
+      ]
+    },
+    {
+      "id": 68,
+      "uid_legacy": "mundial2026-068@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo L",
+      "group": "L",
+      "home": "Croácia",
+      "away": "Gana",
+      "kickoff_local": "2026-06-27T22:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo L"
+      ]
+    },
+    {
+      "id": 69,
+      "uid_legacy": "mundial2026-069@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo K",
+      "group": "K",
+      "home": "Colômbia",
+      "away": "Portugal",
+      "kickoff_local": "2026-06-28T00:30:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Miami, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo K",
+        "Portugal"
+      ]
+    },
+    {
+      "id": 70,
+      "uid_legacy": "mundial2026-070@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo K",
+      "group": "K",
+      "home": "RD Congo",
+      "away": "Uzbequistão",
+      "kickoff_local": "2026-06-28T00:30:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo K"
+      ]
+    },
+    {
+      "id": 71,
+      "uid_legacy": "mundial2026-071@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo J",
+      "group": "J",
+      "home": "Argélia",
+      "away": "Áustria",
+      "kickoff_local": "2026-06-28T03:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo J"
+      ]
+    },
+    {
+      "id": 72,
+      "uid_legacy": "mundial2026-072@calendario-mundial-2026",
+      "stage": "group",
+      "stage_label_pt": "Grupo J",
+      "group": "J",
+      "home": "Jordânia",
+      "away": "Argentina",
+      "kickoff_local": "2026-06-28T03:00:00+01:00",
+      "all_day": false,
+      "simultaneous": true,
+      "location": "Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Fase de Grupos",
+        "Grupo J"
+      ]
+    },
+    {
+      "id": 73,
+      "uid_legacy": "mundial2026-073@calendario-mundial-2026",
+      "stage": "r32",
+      "stage_label_pt": "16-avos",
+      "group": null,
+      "home": "2º Grupo A",
+      "away": "2º Grupo B",
+      "kickoff_local": "2026-06-28",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Los Angeles, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 74,
+      "uid_legacy": "mundial2026-074@calendario-mundial-2026",
+      "stage": "ko",
+      "stage_label_pt": "A/B/C/D/F) (16-avos",
+      "group": null,
+      "home": "Venc. Grupo E",
+      "away": "3º",
+      "kickoff_local": "2026-06-29",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Boston, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 75,
+      "uid_legacy": "mundial2026-075@calendario-mundial-2026",
+      "stage": "r32",
+      "stage_label_pt": "16-avos",
+      "group": null,
+      "home": "Venc. Grupo F",
+      "away": "2º Grupo C",
+      "kickoff_local": "2026-06-29",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Monterrey, México",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 76,
+      "uid_legacy": "mundial2026-076@calendario-mundial-2026",
+      "stage": "r32",
+      "stage_label_pt": "16-avos",
+      "group": null,
+      "home": "Venc. Grupo C",
+      "away": "2º Grupo F",
+      "kickoff_local": "2026-06-29",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Houston, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 77,
+      "uid_legacy": "mundial2026-077@calendario-mundial-2026",
+      "stage": "ko",
+      "stage_label_pt": "C/D/F/G/H) (16-avos",
+      "group": null,
+      "home": "Venc. Grupo I",
+      "away": "3º",
+      "kickoff_local": "2026-06-30",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Nova Iorque/Nova Jérsia, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 78,
+      "uid_legacy": "mundial2026-078@calendario-mundial-2026",
+      "stage": "r32",
+      "stage_label_pt": "16-avos",
+      "group": null,
+      "home": "2º Grupo E",
+      "away": "2º Grupo I",
+      "kickoff_local": "2026-06-30",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Dallas, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 79,
+      "uid_legacy": "mundial2026-079@calendario-mundial-2026",
+      "stage": "ko",
+      "stage_label_pt": "C/E/F/H/I) (16-avos",
+      "group": null,
+      "home": "Venc. Grupo A",
+      "away": "3º",
+      "kickoff_local": "2026-06-30",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Cidade do México, México",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 80,
+      "uid_legacy": "mundial2026-080@calendario-mundial-2026",
+      "stage": "ko",
+      "stage_label_pt": "E/H/I/J/K) (16-avos",
+      "group": null,
+      "home": "Venc. Grupo L",
+      "away": "3º",
+      "kickoff_local": "2026-07-01",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Atlanta, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 81,
+      "uid_legacy": "mundial2026-081@calendario-mundial-2026",
+      "stage": "ko",
+      "stage_label_pt": "B/E/F/I/J) (16-avos",
+      "group": null,
+      "home": "Venc. Grupo D",
+      "away": "3º",
+      "kickoff_local": "2026-07-01",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Santa Clara, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 82,
+      "uid_legacy": "mundial2026-082@calendario-mundial-2026",
+      "stage": "ko",
+      "stage_label_pt": "A/E/H/I/J) (16-avos",
+      "group": null,
+      "home": "Venc. Grupo G",
+      "away": "3º",
+      "kickoff_local": "2026-07-01",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Seattle, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 83,
+      "uid_legacy": "mundial2026-083@calendario-mundial-2026",
+      "stage": "r32",
+      "stage_label_pt": "16-avos",
+      "group": null,
+      "home": "2º Grupo K",
+      "away": "2º Grupo L",
+      "kickoff_local": "2026-07-02",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Toronto, Canadá",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 84,
+      "uid_legacy": "mundial2026-084@calendario-mundial-2026",
+      "stage": "r32",
+      "stage_label_pt": "16-avos",
+      "group": null,
+      "home": "Venc. Grupo H",
+      "away": "2º Grupo J",
+      "kickoff_local": "2026-07-02",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Los Angeles, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 85,
+      "uid_legacy": "mundial2026-085@calendario-mundial-2026",
+      "stage": "ko",
+      "stage_label_pt": "E/F/G/I/J) (16-avos",
+      "group": null,
+      "home": "Venc. Grupo B",
+      "away": "3º",
+      "kickoff_local": "2026-07-02",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Vancouver, Canadá",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 86,
+      "uid_legacy": "mundial2026-086@calendario-mundial-2026",
+      "stage": "r32",
+      "stage_label_pt": "16-avos",
+      "group": null,
+      "home": "Venc. Grupo J",
+      "away": "2º Grupo H",
+      "kickoff_local": "2026-07-03",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Miami, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 87,
+      "uid_legacy": "mundial2026-087@calendario-mundial-2026",
+      "stage": "ko",
+      "stage_label_pt": "D/E/I/J/L) (16-avos",
+      "group": null,
+      "home": "Venc. Grupo K",
+      "away": "3º",
+      "kickoff_local": "2026-07-03",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Kansas City, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 88,
+      "uid_legacy": "mundial2026-088@calendario-mundial-2026",
+      "stage": "r32",
+      "stage_label_pt": "16-avos",
+      "group": null,
+      "home": "2º Grupo D",
+      "away": "2º Grupo G",
+      "kickoff_local": "2026-07-03",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Dallas, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Dezasseis-avos"
+      ]
+    },
+    {
+      "id": 89,
+      "uid_legacy": "mundial2026-089@calendario-mundial-2026",
+      "stage": "r16",
+      "stage_label_pt": "Oitavos",
+      "group": null,
+      "home": "Venc. J74",
+      "away": "Venc. J77",
+      "kickoff_local": "2026-07-04",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Filadélfia, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Oitavos"
+      ]
+    },
+    {
+      "id": 90,
+      "uid_legacy": "mundial2026-090@calendario-mundial-2026",
+      "stage": "r16",
+      "stage_label_pt": "Oitavos",
+      "group": null,
+      "home": "Venc. J73",
+      "away": "Venc. J75",
+      "kickoff_local": "2026-07-04",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Houston, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Oitavos"
+      ]
+    },
+    {
+      "id": 91,
+      "uid_legacy": "mundial2026-091@calendario-mundial-2026",
+      "stage": "r16",
+      "stage_label_pt": "Oitavos",
+      "group": null,
+      "home": "Venc. J76",
+      "away": "Venc. J78",
+      "kickoff_local": "2026-07-05",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Nova Iorque/Nova Jérsia, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Oitavos"
+      ]
+    },
+    {
+      "id": 92,
+      "uid_legacy": "mundial2026-092@calendario-mundial-2026",
+      "stage": "r16",
+      "stage_label_pt": "Oitavos",
+      "group": null,
+      "home": "Venc. J79",
+      "away": "Venc. J80",
+      "kickoff_local": "2026-07-05",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Cidade do México, México",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Oitavos"
+      ]
+    },
+    {
+      "id": 93,
+      "uid_legacy": "mundial2026-093@calendario-mundial-2026",
+      "stage": "r16",
+      "stage_label_pt": "Oitavos",
+      "group": null,
+      "home": "Venc. J83",
+      "away": "Venc. J84",
+      "kickoff_local": "2026-07-06",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Dallas, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Oitavos"
+      ]
+    },
+    {
+      "id": 94,
+      "uid_legacy": "mundial2026-094@calendario-mundial-2026",
+      "stage": "r16",
+      "stage_label_pt": "Oitavos",
+      "group": null,
+      "home": "Venc. J81",
+      "away": "Venc. J82",
+      "kickoff_local": "2026-07-06",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Seattle, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Oitavos"
+      ]
+    },
+    {
+      "id": 95,
+      "uid_legacy": "mundial2026-095@calendario-mundial-2026",
+      "stage": "r16",
+      "stage_label_pt": "Oitavos",
+      "group": null,
+      "home": "Venc. J86",
+      "away": "Venc. J88",
+      "kickoff_local": "2026-07-07",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Atlanta, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Oitavos"
+      ]
+    },
+    {
+      "id": 96,
+      "uid_legacy": "mundial2026-096@calendario-mundial-2026",
+      "stage": "r16",
+      "stage_label_pt": "Oitavos",
+      "group": null,
+      "home": "Venc. J85",
+      "away": "Venc. J87",
+      "kickoff_local": "2026-07-07",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Vancouver, Canadá",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Oitavos"
+      ]
+    },
+    {
+      "id": 97,
+      "uid_legacy": "mundial2026-097@calendario-mundial-2026",
+      "stage": "qf",
+      "stage_label_pt": "Quartos de Final",
+      "group": null,
+      "home": "Venc. J89",
+      "away": "Venc. J90",
+      "kickoff_local": "2026-07-09",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Boston, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Quartos"
+      ]
+    },
+    {
+      "id": 98,
+      "uid_legacy": "mundial2026-098@calendario-mundial-2026",
+      "stage": "qf",
+      "stage_label_pt": "Quartos de Final",
+      "group": null,
+      "home": "Venc. J93",
+      "away": "Venc. J94",
+      "kickoff_local": "2026-07-10",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Los Angeles, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Quartos"
+      ]
+    },
+    {
+      "id": 99,
+      "uid_legacy": "mundial2026-099@calendario-mundial-2026",
+      "stage": "qf",
+      "stage_label_pt": "Quartos de Final",
+      "group": null,
+      "home": "Venc. J91",
+      "away": "Venc. J92",
+      "kickoff_local": "2026-07-12",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Miami, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Quartos"
+      ]
+    },
+    {
+      "id": 100,
+      "uid_legacy": "mundial2026-100@calendario-mundial-2026",
+      "stage": "qf",
+      "stage_label_pt": "Quartos de Final",
+      "group": null,
+      "home": "Venc. J95",
+      "away": "Venc. J96",
+      "kickoff_local": "2026-07-12",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Kansas City, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Quartos"
+      ]
+    },
+    {
+      "id": 101,
+      "uid_legacy": "mundial2026-101@calendario-mundial-2026",
+      "stage": "sf",
+      "stage_label_pt": "Meia-Final",
+      "group": null,
+      "home": "Venc. J97",
+      "away": "Venc. J98",
+      "kickoff_local": "2026-07-14",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Dallas, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Meias-Finais"
+      ]
+    },
+    {
+      "id": 102,
+      "uid_legacy": "mundial2026-102@calendario-mundial-2026",
+      "stage": "sf",
+      "stage_label_pt": "Meia-Final",
+      "group": null,
+      "home": "Venc. J99",
+      "away": "Venc. J100",
+      "kickoff_local": "2026-07-15",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Atlanta, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Meias-Finais"
+      ]
+    },
+    {
+      "id": 103,
+      "uid_legacy": "mundial2026-103@calendario-mundial-2026",
+      "stage": "third",
+      "stage_label_pt": "3.º/4.º Lugar",
+      "group": null,
+      "home": "Perd. J101",
+      "away": "Perd. J102",
+      "kickoff_local": "2026-07-18",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Miami, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "3º Lugar"
+      ]
+    },
+    {
+      "id": 104,
+      "uid_legacy": "mundial2026-104@calendario-mundial-2026",
+      "stage": "final",
+      "stage_label_pt": "Final",
+      "group": null,
+      "home": "Venc. J101",
+      "away": "Venc. J102",
+      "kickoff_local": "2026-07-19",
+      "all_day": true,
+      "simultaneous": false,
+      "location": "Nova Iorque/Nova Jérsia, Estados Unidos da América",
+      "channels_pt": [
+        "Sport TV",
+        "Livemode"
+      ],
+      "categories": [
+        "Mundial 2026",
+        "Final"
+      ]
+    }
+  ]
+}
