@@ -215,7 +215,7 @@ PAGE_TMPL = """<!doctype html>
 </section>
 
 <footer>
-  <p><strong>Fontes:</strong> calendário e estádios da <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026">FIFA</a>; canais portugueses da <a href="https://www.abola.pt/">A Bola</a>. Inspirado em <a href="https://github.com/jpgcc/calendario-mundial-2026">jpgcc/calendario-mundial-2026</a>.</p>
+  <p><strong>Fontes:</strong> calendário e estádios da <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026">FIFA</a>; canais portugueses da <a href="https://www.sporttv.pt/">Sport TV</a>. Dados iniciais de <a href="https://github.com/jpgcc/calendario-mundial-2026">jpgcc/calendario-mundial-2026</a>.</p>
   <p>Licença CC0 · <a href="{repo}">código no GitHub</a> · gerado em {gen}</p>
 </footer>
 
