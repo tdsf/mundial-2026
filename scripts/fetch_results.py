@@ -6,8 +6,9 @@ Estratégia:
 - 1 GET ao scoreboard com `dates=20260611-20260720&limit=200` devolve os 104 jogos.
 - Para cada evento ESPN: matchar por external_id_espn (se já conhecido) ou por
   (data Lisboa, par de espn_abbr home/away) caso contrário.
-- Update apenas: external_id_espn, score_home, score_away, status. Para knockouts,
-  substituir home/away pelo nome PT se a ESPN já tiver equipa real (abbr ∈ teams.json).
+- Update: external_id_espn, score_home, score_away, status, kickoff_local/all_day.
+  Para knockouts, substituir home/away pelo nome PT se a ESPN já tiver equipa real
+  (abbr ∈ teams.json).
 """
 from __future__ import annotations
 
@@ -87,7 +88,7 @@ def main() -> int:
     events = data.get("events", [])
     print(f"ESPN devolveu {len(events)} eventos")
 
-    matched = updated = teams_filled = 0
+    matched = updated = teams_filled = rescheduled = 0
     for ev in events:
         eid = ev["id"]
         comp = ev["competitions"][0]
@@ -102,12 +103,14 @@ def main() -> int:
         # Para scheduled, scores 0 não significam nada — força None.
         if status == "scheduled":
             sh = sa = None
+        ev_dt_lx = datetime.fromisoformat(ev["date"].replace("Z", "+00:00")).astimezone(LX)
+        new_kickoff = ev_dt_lx.isoformat(timespec="seconds")
 
         # 1. lookup por external_id
         m = by_external.get(eid)
         # 2. lookup por (data Lisboa, par de abbrs)
         if m is None and h_abbr in abbr_to_pt and a_abbr in abbr_to_pt:
-            d_lx = datetime.fromisoformat(ev["date"].replace("Z", "+00:00")).astimezone(LX).date().isoformat()
+            d_lx = ev_dt_lx.date().isoformat()
             m = by_date_pair.get((d_lx, frozenset({h_abbr, a_abbr})))
         if m is None:
             # Knockout sem equipas resolvidas ainda → match por ordem ESPN não é fiável,
@@ -124,6 +127,12 @@ def main() -> int:
                 m["away"] = pt_away
                 teams_filled += 1
 
+        # Reschedule: confia na ESPN. Só altera se de facto mudou.
+        if m.get("kickoff_local") != new_kickoff or m.get("all_day"):
+            m["kickoff_local"] = new_kickoff
+            m["all_day"] = False
+            rescheduled += 1
+
         new_fields = {
             "external_id_espn": eid,
             "score_home": sh,
@@ -138,7 +147,7 @@ def main() -> int:
     (DATA / "matches.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    print(f"matched={matched} updated={updated} teams_filled={teams_filled}")
+    print(f"matched={matched} updated={updated} teams_filled={teams_filled} rescheduled={rescheduled}")
     return 0
 
 
