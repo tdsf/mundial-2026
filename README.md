@@ -163,7 +163,6 @@ data/matches.json      104 jogos (fonte da verdade); fetch_results.py escreve sc
 data/channels_pt.json  canais portugueses por id de match (manual)
 scripts/fetch_results.py   busca ESPN scoreboard e actualiza matches.json
 scripts/generate.py    lê os JSONs e gera docs/mundial-2026.ics + docs/index.html
-scripts/parse_legacy.py    one-shot histórico — já não usado
 ```
 
 Regerar local:
