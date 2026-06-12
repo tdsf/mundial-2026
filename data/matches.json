@@ -41,9 +41,9 @@
         "Grupo A"
       ],
       "external_id_espn": "760414",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 2,
+      "score_away": 1,
+      "status": "final"
     },
     {
       "id": 3,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-12T01:44:20.955665+00:00"
+  "last_fetch": "2026-06-12T06:39:22.082642+00:00"
 }
