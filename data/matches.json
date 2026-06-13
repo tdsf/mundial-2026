@@ -104,9 +104,9 @@
         "Grupo B"
       ],
       "external_id_espn": "760420",
-      "score_home": 0,
+      "score_home": 1,
       "score_away": 1,
-      "status": "live"
+      "status": "final"
     },
     {
       "id": 6,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-13T20:47:35.091203+00:00"
+  "last_fetch": "2026-06-13T22:01:23.773951+00:00"
 }
