@@ -83,9 +83,9 @@
         "Grupo D"
       ],
       "external_id_espn": "760417",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 4,
+      "score_away": 1,
+      "status": "final"
     },
     {
       "id": 5,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-13T00:20:14.331704+00:00"
+  "last_fetch": "2026-06-13T04:59:48.605610+00:00"
 }
