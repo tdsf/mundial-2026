@@ -15,13 +15,15 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Generate ICS + site
-        run: python scripts/generate.py
+        run: timeout 100 python scripts/generate.py
+        timeout-minutes: 2
       - name: Commit if changed
         run: |
           if [[ -n "$(git status --porcelain docs/)" ]]; then
@@ -29,7 +31,8 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add docs/
             git commit -m "build: regenerate calendar [skip ci]"
-            git push
+            timeout 60 git push || true
           else
             echo "no changes"
           fi
+        timeout-minutes: 2
