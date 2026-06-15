@@ -293,9 +293,9 @@
         "Grupo G"
       ],
       "external_id_espn": "760426",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 1,
+      "score_away": 1,
+      "status": "final"
     },
     {
       "id": 15,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-15T18:23:36.408535+00:00"
+  "last_fetch": "2026-06-15T21:30:17.161350+00:00"
 }
