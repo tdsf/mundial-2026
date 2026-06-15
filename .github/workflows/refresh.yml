@@ -11,17 +11,18 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Fetch ESPN results
-        run: timeout 120 python scripts/fetch_results.py
-        timeout-minutes: 3
+        run: timeout 50 python scripts/fetch_results.py
+        timeout-minutes: 1
       - name: Generate ICS + site
-        run: timeout 120 python scripts/generate.py
-        timeout-minutes: 3
+        run: timeout 50 python scripts/generate.py
+        timeout-minutes: 1
       - name: Commit if changed
         run: |
           if [[ -n "$(git status --porcelain data/matches.json docs/)" ]]; then
@@ -34,4 +35,4 @@ jobs:
           else
             echo "no changes"
           fi
-        timeout-minutes: 5
+        timeout-minutes: 2
