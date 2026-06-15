@@ -110,7 +110,7 @@ def fold(line: str) -> str:
         if len(chunk) >= 73:
             # garantir que não cortamos no meio de um char UTF-8
             while chunk and (chunk[-1] & 0xC0) == 0x80:
-                pass  # já correto, último byte é continuação? só cortamos no início de cp
+                chunk.pop()
             out.append(chunk.decode("utf-8", errors="ignore"))
             chunk = bytearray()
     if chunk:
@@ -232,7 +232,7 @@ PAGE_TMPL = """<!doctype html>
 </section>
 
 <footer>
-  <p><strong>Fontes:</strong> calendário, equipas e resultados via <a href="https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard">ESPN</a>; estádios oficiais da <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026">FIFA</a>; canais portugueses da <a href="https://www.sporttv.pt/">Sport TV</a> (manuais).</p>
+  <p><strong>Fontes:</strong> calendário, equipas e resultados via <a href="https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard">ESPN</a>; estádios oficiais da <a href="h[...]
   <p>Licença CC0 · <a href="{repo}">código no GitHub</a> · gerado em {gen}</p>
 </footer>
 
