@@ -315,8 +315,8 @@
       ],
       "external_id_espn": "760429",
       "score_home": 1,
-      "score_away": 0,
-      "status": "live"
+      "score_away": 1,
+      "status": "final"
     },
     {
       "id": 16,
@@ -335,9 +335,9 @@
         "Grupo G"
       ],
       "external_id_espn": "760427",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 2,
+      "score_away": 2,
+      "status": "final"
     },
     {
       "id": 17,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-15T23:43:35.268681+00:00"
+  "last_fetch": "2026-06-16T03:50:53.095804+00:00"
 }
