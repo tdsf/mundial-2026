@@ -567,9 +567,9 @@
         "Grupo B"
       ],
       "external_id_espn": "760440",
-      "score_home": 5,
+      "score_home": 6,
       "score_away": 0,
-      "status": "live"
+      "status": "final"
     },
     {
       "id": 28,
@@ -588,9 +588,9 @@
         "Grupo A"
       ],
       "external_id_espn": "760441",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 1,
+      "score_away": 0,
+      "status": "final"
     },
     {
       "id": 29,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-18T23:42:47.915249+00:00"
+  "last_fetch": "2026-06-19T04:02:36.958511+00:00"
 }
