@@ -674,7 +674,7 @@
       "external_id_espn": "760443",
       "score_home": 0,
       "score_away": 1,
-      "status": "live"
+      "status": "final"
     },
     {
       "id": 33,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-20T04:50:20.833551+00:00"
+  "last_fetch": "2026-06-20T08:20:10.733643+00:00"
 }
