@@ -777,9 +777,9 @@
         "Grupo H"
       ],
       "external_id_espn": "760453",
-      "score_home": 1,
+      "score_home": 4,
       "score_away": 0,
-      "status": "live"
+      "status": "final"
     },
     {
       "id": 38,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-21T16:14:36.967389+00:00"
+  "last_fetch": "2026-06-21T18:03:46.712867+00:00"
 }
