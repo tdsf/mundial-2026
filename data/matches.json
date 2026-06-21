@@ -735,9 +735,9 @@
         "Grupo E"
       ],
       "external_id_espn": "760446",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 0,
+      "status": "final"
     },
     {
       "id": 36,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-20T23:43:49.413106+00:00"
+  "last_fetch": "2026-06-21T03:55:49.780773+00:00"
 }
