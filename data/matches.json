@@ -861,9 +861,9 @@
         "Grupo J"
       ],
       "external_id_espn": "760456",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 1,
+      "score_away": 0,
+      "status": "live"
     },
     {
       "id": 42,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-22T14:36:14.565287+00:00"
+  "last_fetch": "2026-06-22T18:43:47.595505+00:00"
 }
