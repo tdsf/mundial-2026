@@ -946,9 +946,9 @@
         "Portugal"
       ],
       "external_id_espn": "760461",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 3,
+      "score_away": 0,
+      "status": "live"
     },
     {
       "id": 46,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-23T15:45:08.226422+00:00"
+  "last_fetch": "2026-06-23T17:50:56.398301+00:00"
 }
