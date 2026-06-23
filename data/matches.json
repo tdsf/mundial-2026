@@ -967,9 +967,9 @@
         "Grupo L"
       ],
       "external_id_espn": "760458",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 0,
+      "status": "live"
     },
     {
       "id": 47,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-23T19:59:14.616886+00:00"
+  "last_fetch": "2026-06-23T21:46:55.774829+00:00"
 }
