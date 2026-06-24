@@ -1525,15 +1525,15 @@
       "group": null,
       "home": "2º Grupo A",
       "away": "2º Grupo B",
-      "kickoff_local": "2026-06-28",
-      "all_day": true,
+      "kickoff_local": "2026-06-28T20:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Los Angeles, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760486",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1545,15 +1545,15 @@
       "group": null,
       "home": "Venc. Grupo E",
       "away": "3º A/B/C/D/F",
-      "kickoff_local": "2026-06-29",
-      "all_day": true,
+      "kickoff_local": "2026-06-29T21:30:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Boston, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760489",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1565,15 +1565,15 @@
       "group": null,
       "home": "Venc. Grupo F",
       "away": "2º Grupo C",
-      "kickoff_local": "2026-06-29",
-      "all_day": true,
+      "kickoff_local": "2026-06-30T02:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Monterrey, México",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760488",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1585,15 +1585,15 @@
       "group": null,
       "home": "Venc. Grupo C",
       "away": "2º Grupo F",
-      "kickoff_local": "2026-06-29",
-      "all_day": true,
+      "kickoff_local": "2026-06-29T18:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Houston, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760487",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1605,15 +1605,15 @@
       "group": null,
       "home": "Venc. Grupo I",
       "away": "3º C/D/F/G/H",
-      "kickoff_local": "2026-06-30",
-      "all_day": true,
+      "kickoff_local": "2026-06-30T22:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Nova Iorque/Nova Jérsia, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760492",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1625,15 +1625,15 @@
       "group": null,
       "home": "2º Grupo E",
       "away": "2º Grupo I",
-      "kickoff_local": "2026-06-30",
-      "all_day": true,
+      "kickoff_local": "2026-06-30T18:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Dallas, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760490",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1645,15 +1645,15 @@
       "group": null,
       "home": "Venc. Grupo A",
       "away": "3º C/E/F/H/I",
-      "kickoff_local": "2026-06-30",
-      "all_day": true,
+      "kickoff_local": "2026-07-01T02:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Cidade do México, México",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760491",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1665,15 +1665,15 @@
       "group": null,
       "home": "Venc. Grupo L",
       "away": "3º E/H/I/J/K",
-      "kickoff_local": "2026-07-01",
-      "all_day": true,
+      "kickoff_local": "2026-07-01T17:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Atlanta, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760495",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1685,15 +1685,15 @@
       "group": null,
       "home": "Venc. Grupo D",
       "away": "3º B/E/F/I/J",
-      "kickoff_local": "2026-07-01",
-      "all_day": true,
+      "kickoff_local": "2026-07-02T01:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Santa Clara, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760494",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1705,15 +1705,15 @@
       "group": null,
       "home": "Venc. Grupo G",
       "away": "3º A/E/H/I/J",
-      "kickoff_local": "2026-07-01",
-      "all_day": true,
+      "kickoff_local": "2026-07-01T21:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Seattle, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760493",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1725,15 +1725,15 @@
       "group": null,
       "home": "2º Grupo K",
       "away": "2º Grupo L",
-      "kickoff_local": "2026-07-02",
-      "all_day": true,
+      "kickoff_local": "2026-07-03T00:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Toronto, Canadá",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760496",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1745,15 +1745,15 @@
       "group": null,
       "home": "Venc. Grupo H",
       "away": "2º Grupo J",
-      "kickoff_local": "2026-07-02",
-      "all_day": true,
+      "kickoff_local": "2026-07-02T20:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Los Angeles, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760497",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1765,15 +1765,15 @@
       "group": null,
       "home": "Venc. Grupo B",
       "away": "3º E/F/G/I/J",
-      "kickoff_local": "2026-07-02",
-      "all_day": true,
+      "kickoff_local": "2026-07-03T04:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Vancouver, Canadá",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760498",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1785,15 +1785,15 @@
       "group": null,
       "home": "Venc. Grupo J",
       "away": "2º Grupo H",
-      "kickoff_local": "2026-07-03",
-      "all_day": true,
+      "kickoff_local": "2026-07-03T23:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Miami, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760500",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1805,15 +1805,15 @@
       "group": null,
       "home": "Venc. Grupo K",
       "away": "3º D/E/I/J/L",
-      "kickoff_local": "2026-07-03",
-      "all_day": true,
+      "kickoff_local": "2026-07-04T02:30:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Kansas City, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760501",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1825,15 +1825,15 @@
       "group": null,
       "home": "2º Grupo D",
       "away": "2º Grupo G",
-      "kickoff_local": "2026-07-03",
-      "all_day": true,
+      "kickoff_local": "2026-07-03T19:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Dallas, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Dezasseis-avos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760499",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1845,15 +1845,15 @@
       "group": null,
       "home": "Venc. J74",
       "away": "Venc. J77",
-      "kickoff_local": "2026-07-04",
-      "all_day": true,
+      "kickoff_local": "2026-07-04T22:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Filadélfia, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Oitavos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760503",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1865,15 +1865,15 @@
       "group": null,
       "home": "Venc. J73",
       "away": "Venc. J75",
-      "kickoff_local": "2026-07-04",
-      "all_day": true,
+      "kickoff_local": "2026-07-04T18:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Houston, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Oitavos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760502",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1885,15 +1885,15 @@
       "group": null,
       "home": "Venc. J76",
       "away": "Venc. J78",
-      "kickoff_local": "2026-07-05",
-      "all_day": true,
+      "kickoff_local": "2026-07-05T21:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Nova Iorque/Nova Jérsia, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Oitavos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760504",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1905,15 +1905,15 @@
       "group": null,
       "home": "Venc. J79",
       "away": "Venc. J80",
-      "kickoff_local": "2026-07-05",
-      "all_day": true,
+      "kickoff_local": "2026-07-06T01:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Cidade do México, México",
       "categories": [
         "Mundial 2026",
         "Oitavos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760505",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1925,15 +1925,15 @@
       "group": null,
       "home": "Venc. J83",
       "away": "Venc. J84",
-      "kickoff_local": "2026-07-06",
-      "all_day": true,
+      "kickoff_local": "2026-07-06T20:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Dallas, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Oitavos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760506",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1945,15 +1945,15 @@
       "group": null,
       "home": "Venc. J81",
       "away": "Venc. J82",
-      "kickoff_local": "2026-07-06",
-      "all_day": true,
+      "kickoff_local": "2026-07-07T01:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Seattle, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Oitavos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760507",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1965,15 +1965,15 @@
       "group": null,
       "home": "Venc. J86",
       "away": "Venc. J88",
-      "kickoff_local": "2026-07-07",
-      "all_day": true,
+      "kickoff_local": "2026-07-07T17:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Atlanta, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Oitavos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760509",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -1985,15 +1985,15 @@
       "group": null,
       "home": "Venc. J85",
       "away": "Venc. J87",
-      "kickoff_local": "2026-07-07",
-      "all_day": true,
+      "kickoff_local": "2026-07-07T21:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Vancouver, Canadá",
       "categories": [
         "Mundial 2026",
         "Oitavos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760508",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -2005,15 +2005,15 @@
       "group": null,
       "home": "Venc. J89",
       "away": "Venc. J90",
-      "kickoff_local": "2026-07-09",
-      "all_day": true,
+      "kickoff_local": "2026-07-09T21:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Boston, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Quartos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760510",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -2025,15 +2025,15 @@
       "group": null,
       "home": "Venc. J93",
       "away": "Venc. J94",
-      "kickoff_local": "2026-07-10",
-      "all_day": true,
+      "kickoff_local": "2026-07-10T20:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Los Angeles, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Quartos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760511",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -2045,15 +2045,15 @@
       "group": null,
       "home": "Venc. J91",
       "away": "Venc. J92",
-      "kickoff_local": "2026-07-12",
-      "all_day": true,
+      "kickoff_local": "2026-07-11T22:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Miami, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Quartos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760512",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -2065,15 +2065,15 @@
       "group": null,
       "home": "Venc. J95",
       "away": "Venc. J96",
-      "kickoff_local": "2026-07-12",
-      "all_day": true,
+      "kickoff_local": "2026-07-12T02:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Kansas City, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Quartos"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760513",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -2085,15 +2085,15 @@
       "group": null,
       "home": "Venc. J97",
       "away": "Venc. J98",
-      "kickoff_local": "2026-07-14",
-      "all_day": true,
+      "kickoff_local": "2026-07-14T20:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Dallas, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Meias-Finais"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760514",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -2105,15 +2105,15 @@
       "group": null,
       "home": "Venc. J99",
       "away": "Venc. J100",
-      "kickoff_local": "2026-07-15",
-      "all_day": true,
+      "kickoff_local": "2026-07-15T20:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Atlanta, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Meias-Finais"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760515",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -2125,15 +2125,15 @@
       "group": null,
       "home": "Perd. J101",
       "away": "Perd. J102",
-      "kickoff_local": "2026-07-18",
-      "all_day": true,
+      "kickoff_local": "2026-07-18T22:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Miami, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "3º Lugar"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760516",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"
@@ -2145,15 +2145,15 @@
       "group": null,
       "home": "Venc. J101",
       "away": "Venc. J102",
-      "kickoff_local": "2026-07-19",
-      "all_day": true,
+      "kickoff_local": "2026-07-19T20:00:00+01:00",
+      "all_day": false,
       "simultaneous": false,
       "location": "Nova Iorque/Nova Jérsia, Estados Unidos da América",
       "categories": [
         "Mundial 2026",
         "Final"
       ],
-      "external_id_espn": null,
+      "external_id_espn": "760517",
       "score_home": null,
       "score_away": null,
       "status": "scheduled"

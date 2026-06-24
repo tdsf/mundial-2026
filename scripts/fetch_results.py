@@ -13,8 +13,10 @@ Estratégia:
 from __future__ import annotations
 
 import json
+import re
+import unicodedata
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -53,6 +55,35 @@ def normalize_status(name: str) -> str:
     return STATUS_MAP.get(name, "scheduled")
 
 
+def normalize_place(text: str) -> str:
+    text = unicodedata.normalize("NFD", text.lower())
+    text = "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
+    text = re.sub(r"[^a-z0-9]+", " ", text).strip()
+    translations = {
+        "nova iorque": "new york",
+        "nova jersia": "new jersey",
+        "filadelfia": "philadelphia",
+        "cidade do mexico": "mexico city",
+        "los angeles": "inglewood",
+        "boston": "foxborough",
+        "dallas": "arlington",
+        "estados unidos da america": "usa",
+        "estados unidos": "usa",
+        "america": "america",
+        "canada": "canada",
+        "mexico": "mexico",
+        "guadalupe": "monterrey",
+        "estadio bbva": "monterrey",
+    }
+    for src, dest in translations.items():
+        text = text.replace(src, dest)
+    return text
+
+
+def place_tokens(text: str) -> set[str]:
+    return set(normalize_place(text).split())
+
+
 def parse_int(s):
     if s is None or s == "":
         return None
@@ -73,16 +104,19 @@ def main() -> int:
     by_external = {m["external_id_espn"]: m for m in matches if m.get("external_id_espn")}
     # Index por (data Lisboa YYYY-MM-DD, frozenset({abbr1, abbr2}))
     by_date_pair: dict[tuple[str, frozenset[str]], dict] = {}
+    by_date_place: dict[tuple[str, frozenset[str]], dict] = {}
     for m in matches:
         h_abbr = teams.get(m["home"], {}).get("espn_abbr")
         a_abbr = teams.get(m["away"], {}).get("espn_abbr")
-        if not (h_abbr and a_abbr):
-            continue
         if m["all_day"]:
             d = m["kickoff_local"][:10]
         else:
             d = datetime.fromisoformat(m["kickoff_local"]).astimezone(LX).date().isoformat()
-        by_date_pair[(d, frozenset({h_abbr, a_abbr}))] = m
+        if h_abbr and a_abbr:
+            by_date_pair[(d, frozenset({h_abbr, a_abbr}))] = m
+        place = place_tokens(m["location"])
+        if place:
+            by_date_place[(d, frozenset(place))] = m
 
     data = fetch()
     events = data.get("events", [])
@@ -112,9 +146,28 @@ def main() -> int:
         if m is None and h_abbr in abbr_to_pt and a_abbr in abbr_to_pt:
             d_lx = ev_dt_lx.date().isoformat()
             m = by_date_pair.get((d_lx, frozenset({h_abbr, a_abbr})))
+
         if m is None:
-            # Knockout sem equipas resolvidas ainda → match por ordem ESPN não é fiável,
-            # então skip. Os eventos do calendário ficam intactos.
+            # Knockout sem equipas resolvidas ainda → tentar casar por data+local,
+            # admitindo diferenças de dia devido a fusos horários.
+            event_utc_date = datetime.fromisoformat(ev["date"].replace("Z", "+00:00")).date()
+            event_dates = {
+                event_utc_date.isoformat(),
+                (event_utc_date - timedelta(days=1)).isoformat(),
+                (event_utc_date + timedelta(days=1)).isoformat(),
+            }
+            ev_place = place_tokens(
+                (comp["venue"]["address"].get("city", "") + " " + comp["venue"].get("fullName", ""))
+            )
+            if ev_place:
+                candidates = [
+                    mm
+                    for (date_key, place_key), mm in by_date_place.items()
+                    if date_key in event_dates and ev_place & place_key
+                ]
+                if len(candidates) == 1:
+                    m = candidates[0]
+        if m is None:
             continue
 
         matched += 1

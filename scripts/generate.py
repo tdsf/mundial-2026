@@ -18,7 +18,7 @@ LX = ZoneInfo("Europe/Lisbon")
 SUB_URL = "https://tdsf.github.io/mundial-2026/mundial-2026.ics"
 REPO_URL = "https://github.com/tdsf/mundial-2026"
 
-GENERIC_FLAG = "⚽"
+GENERIC_FLAG = "🏳️"
 
 
 def load() -> tuple[dict, list[dict], dict]:
@@ -57,9 +57,10 @@ def event_title(m: dict, teams: dict) -> str:
 
 
 def parse_kickoff(m: dict) -> datetime:
-    if m["all_day"]:
-        return datetime.fromisoformat(m["kickoff_local"] + "T00:00:00+01:00")
-    return datetime.fromisoformat(m["kickoff_local"])
+    kickoff = m["kickoff_local"]
+    if "T" not in kickoff:
+        kickoff = kickoff + "T00:00:00+01:00"
+    return datetime.fromisoformat(kickoff)
 
 
 # ---------- ICS ----------
@@ -152,15 +153,10 @@ def emit_event(m: dict, teams: dict, channels: dict) -> str:
         f"UID:{uid}",
         f"DTSTAMP:{dtstamp}",
     ]
-    if m["all_day"]:
-        d = datetime.fromisoformat(m["kickoff_local"]).date()
-        lines.append(f"DTSTART;VALUE=DATE:{d.strftime('%Y%m%d')}")
-        lines.append(f"DTEND;VALUE=DATE:{(d + timedelta(days=1)).strftime('%Y%m%d')}")
-    else:
-        start = parse_kickoff(m)
-        end = start + timedelta(hours=2)
-        lines.append(f"DTSTART;TZID=Europe/Lisbon:{start.strftime('%Y%m%dT%H%M%S')}")
-        lines.append(f"DTEND;TZID=Europe/Lisbon:{end.strftime('%Y%m%dT%H%M%S')}")
+    start = parse_kickoff(m)
+    end = start + timedelta(hours=2)
+    lines.append(f"DTSTART;TZID=Europe/Lisbon:{start.strftime('%Y%m%dT%H%M%S')}")
+    lines.append(f"DTEND;TZID=Europe/Lisbon:{end.strftime('%Y%m%dT%H%M%S')}")
     lines.append(f"SUMMARY:{ics_escape(summary)}")
     lines.append(f"DESCRIPTION:{ics_escape(description)}")
     lines.append(f"LOCATION:{ics_escape(location)}")
