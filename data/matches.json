@@ -1009,9 +1009,9 @@
         "Grupo K"
       ],
       "external_id_espn": "760459",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 1,
+      "score_away": 0,
+      "status": "final"
     },
     {
       "id": 49,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-24T01:24:32.846566+00:00"
+  "last_fetch": "2026-06-24T05:34:39.455693+00:00"
 }
