@@ -1198,9 +1198,9 @@
         "Grupo F"
       ],
       "external_id_espn": "760471",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 0,
+      "status": "live"
     },
     {
       "id": 58,
@@ -1219,9 +1219,9 @@
         "Grupo F"
       ],
       "external_id_espn": "760472",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 2,
+      "status": "live"
     },
     {
       "id": 59,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-25T22:19:04.632670+00:00"
+  "last_fetch": "2026-06-25T23:51:22.183993+00:00"
 }
