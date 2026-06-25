@@ -1114,9 +1114,9 @@
         "Grupo A"
       ],
       "external_id_espn": "760467",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 3,
+      "status": "final"
     },
     {
       "id": 54,
@@ -1135,9 +1135,9 @@
         "Grupo A"
       ],
       "external_id_espn": "760466",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 1,
+      "score_away": 0,
+      "status": "final"
     },
     {
       "id": 55,
@@ -1523,8 +1523,8 @@
       "stage": "r32",
       "stage_label_pt": "16-avos",
       "group": null,
-      "home": "2º Grupo A",
-      "away": "2º Grupo B",
+      "home": "África do Sul",
+      "away": "Canadá",
       "kickoff_local": "2026-06-28T20:00:00+01:00",
       "all_day": false,
       "simultaneous": false,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-25T00:09:20.491023+00:00"
+  "last_fetch": "2026-06-25T04:43:41.047506+00:00"
 }
