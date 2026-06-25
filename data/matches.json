@@ -1073,8 +1073,8 @@
       ],
       "external_id_espn": "760465",
       "score_home": 0,
-      "score_away": 1,
-      "status": "live"
+      "score_away": 3,
+      "status": "final"
     },
     {
       "id": 52,
@@ -1093,9 +1093,9 @@
         "Grupo C"
       ],
       "external_id_espn": "760464",
-      "score_home": 1,
+      "score_home": 4,
       "score_away": 2,
-      "status": "live"
+      "status": "final"
     },
     {
       "id": 53,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-24T22:45:52.343872+00:00"
+  "last_fetch": "2026-06-25T00:09:20.491023+00:00"
 }
