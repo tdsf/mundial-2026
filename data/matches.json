@@ -1198,9 +1198,9 @@
         "Grupo F"
       ],
       "external_id_espn": "760471",
-      "score_home": 0,
-      "score_away": 0,
-      "status": "live"
+      "score_home": 1,
+      "score_away": 1,
+      "status": "final"
     },
     {
       "id": 58,
@@ -1219,9 +1219,9 @@
         "Grupo F"
       ],
       "external_id_espn": "760472",
-      "score_home": 0,
-      "score_away": 2,
-      "status": "live"
+      "score_home": 1,
+      "score_away": 3,
+      "status": "final"
     },
     {
       "id": 59,
@@ -1240,9 +1240,9 @@
         "Grupo D"
       ],
       "external_id_espn": "760470",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 2,
+      "score_away": 2,
+      "status": "live"
     },
     {
       "id": 60,
@@ -1261,9 +1261,9 @@
         "Grupo D"
       ],
       "external_id_espn": "760469",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 0,
+      "status": "live"
     },
     {
       "id": 61,
@@ -1563,8 +1563,8 @@
       "stage": "r32",
       "stage_label_pt": "16-avos",
       "group": null,
-      "home": "Venc. Grupo F",
-      "away": "2º Grupo C",
+      "home": "Países Baixos",
+      "away": "Marrocos",
       "kickoff_local": "2026-06-30T02:00:00+01:00",
       "all_day": false,
       "simultaneous": false,
@@ -1583,8 +1583,8 @@
       "stage": "r32",
       "stage_label_pt": "16-avos",
       "group": null,
-      "home": "Venc. Grupo C",
-      "away": "2º Grupo F",
+      "home": "Brasil",
+      "away": "Japão",
       "kickoff_local": "2026-06-29T18:00:00+01:00",
       "all_day": false,
       "simultaneous": false,
@@ -1683,8 +1683,8 @@
       "stage": "ko",
       "stage_label_pt": "16-avos",
       "group": null,
-      "home": "Venc. Grupo D",
-      "away": "3º B/E/F/I/J",
+      "home": "EUA",
+      "away": "Bósnia-Herzegovina",
       "kickoff_local": "2026-07-02T01:00:00+01:00",
       "all_day": false,
       "simultaneous": false,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-25T23:51:22.183993+00:00"
+  "last_fetch": "2026-06-26T03:26:59.167617+00:00"
 }
