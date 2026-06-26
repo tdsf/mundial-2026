@@ -1283,8 +1283,8 @@
       ],
       "external_id_espn": "760475",
       "score_home": 1,
-      "score_away": 3,
-      "status": "live"
+      "score_away": 4,
+      "status": "final"
     },
     {
       "id": 62,
@@ -1303,9 +1303,9 @@
         "Grupo I"
       ],
       "external_id_espn": "760474",
-      "score_home": 1,
+      "score_home": 5,
       "score_away": 0,
-      "status": "live"
+      "status": "final"
     },
     {
       "id": 63,
@@ -1623,8 +1623,8 @@
       "stage": "r32",
       "stage_label_pt": "16-avos",
       "group": null,
-      "home": "2º Grupo E",
-      "away": "2º Grupo I",
+      "home": "Costa do Marfim",
+      "away": "Noruega",
       "kickoff_local": "2026-06-30T18:00:00+01:00",
       "all_day": false,
       "simultaneous": false,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-26T19:43:27.759077+00:00"
+  "last_fetch": "2026-06-26T21:16:17.597216+00:00"
 }
