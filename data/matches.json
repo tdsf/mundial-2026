@@ -1408,9 +1408,9 @@
         "Grupo L"
       ],
       "external_id_espn": "760485",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 2,
+      "status": "live"
     },
     {
       "id": 68,
@@ -1429,9 +1429,9 @@
         "Grupo L"
       ],
       "external_id_espn": "760480",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 1,
+      "score_away": 1,
+      "status": "live"
     },
     {
       "id": 69,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-27T21:00:31.365127+00:00"
+  "last_fetch": "2026-06-27T22:35:11.273895+00:00"
 }
