@@ -1410,7 +1410,7 @@
       "external_id_espn": "760485",
       "score_home": 0,
       "score_away": 2,
-      "status": "live"
+      "status": "final"
     },
     {
       "id": 68,
@@ -1429,9 +1429,9 @@
         "Grupo L"
       ],
       "external_id_espn": "760480",
-      "score_home": 1,
+      "score_home": 2,
       "score_away": 1,
-      "status": "live"
+      "status": "final"
     },
     {
       "id": 69,
@@ -1451,9 +1451,9 @@
         "Portugal"
       ],
       "external_id_espn": "760481",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 0,
+      "status": "live"
     },
     {
       "id": 70,
@@ -1472,9 +1472,9 @@
         "Grupo K"
       ],
       "external_id_espn": "760482",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 1,
+      "status": "live"
     },
     {
       "id": 71,
@@ -1643,8 +1643,8 @@
       "stage": "ko",
       "stage_label_pt": "16-avos",
       "group": null,
-      "home": "Venc. Grupo A",
-      "away": "3º C/E/F/H/I",
+      "home": "México",
+      "away": "Equador",
       "kickoff_local": "2026-07-01T02:00:00+01:00",
       "all_day": false,
       "simultaneous": false,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-27T22:35:11.273895+00:00"
+  "last_fetch": "2026-06-27T23:59:32.551842+00:00"
 }
