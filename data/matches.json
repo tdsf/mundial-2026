@@ -1554,9 +1554,9 @@
         "Dezasseis-avos"
       ],
       "external_id_espn": "760489",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 1,
+      "status": "live"
     },
     {
       "id": 75,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-29T19:53:03.402472+00:00"
+  "last_fetch": "2026-06-29T21:23:55.319557+00:00"
 }
