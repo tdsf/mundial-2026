@@ -1634,9 +1634,9 @@
         "Dezasseis-avos"
       ],
       "external_id_espn": "760490",
-      "score_home": 0,
-      "score_away": 1,
-      "status": "live"
+      "score_home": 1,
+      "score_away": 2,
+      "status": "final"
     },
     {
       "id": 79,
@@ -1883,8 +1883,8 @@
       "stage": "r16",
       "stage_label_pt": "Oitavos",
       "group": null,
-      "home": "Venc. J76",
-      "away": "Venc. J78",
+      "home": "Brasil",
+      "away": "Noruega",
       "kickoff_local": "2026-07-05T21:00:00+01:00",
       "all_day": false,
       "simultaneous": false,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-06-30T18:18:25.039352+00:00"
+  "last_fetch": "2026-06-30T20:28:26.485358+00:00"
 }
