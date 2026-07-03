@@ -1736,7 +1736,7 @@
       "external_id_espn": "760496",
       "score_home": 2,
       "score_away": 1,
-      "status": "live"
+      "status": "final"
     },
     {
       "id": 84,
@@ -1774,9 +1774,9 @@
         "Dezasseis-avos"
       ],
       "external_id_espn": "760498",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 2,
+      "score_away": 0,
+      "status": "final"
     },
     {
       "id": 86,
@@ -1923,8 +1923,8 @@
       "stage": "r16",
       "stage_label_pt": "Oitavos",
       "group": null,
-      "home": "Venc. J83",
-      "away": "Venc. J84",
+      "home": "Portugal",
+      "away": "Espanha",
       "kickoff_local": "2026-07-06T20:00:00+01:00",
       "all_day": false,
       "simultaneous": false,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-07-03T01:08:51.525660+00:00"
+  "last_fetch": "2026-07-03T05:12:30.160056+00:00"
 }
