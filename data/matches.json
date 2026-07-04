@@ -1814,9 +1814,9 @@
         "Dezasseis-avos"
       ],
       "external_id_espn": "760501",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 1,
+      "score_away": 0,
+      "status": "final"
     },
     {
       "id": 88,
@@ -1963,8 +1963,8 @@
       "stage": "r16",
       "stage_label_pt": "Oitavos",
       "group": null,
-      "home": "Venc. J86",
-      "away": "Venc. J88",
+      "home": "Argentina",
+      "away": "Egito",
       "kickoff_local": "2026-07-07T17:00:00+01:00",
       "all_day": false,
       "simultaneous": false,
@@ -1983,8 +1983,8 @@
       "stage": "r16",
       "stage_label_pt": "Oitavos",
       "group": null,
-      "home": "Venc. J85",
-      "away": "Venc. J87",
+      "home": "Suíça",
+      "away": "Colômbia",
       "kickoff_local": "2026-07-07T21:00:00+01:00",
       "all_day": false,
       "simultaneous": false,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-07-04T00:14:02.106128+00:00"
+  "last_fetch": "2026-07-04T04:10:19.229350+00:00"
 }
