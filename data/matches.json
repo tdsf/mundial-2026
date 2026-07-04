@@ -1874,9 +1874,9 @@
         "Oitavos"
       ],
       "external_id_espn": "760502",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 1,
+      "status": "live"
     },
     {
       "id": 91,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-07-04T17:01:13.337200+00:00"
+  "last_fetch": "2026-07-04T18:30:44.763387+00:00"
 }
