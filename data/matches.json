@@ -1954,9 +1954,9 @@
         "Oitavos"
       ],
       "external_id_espn": "760507",
-      "score_home": 0,
-      "score_away": 0,
-      "status": "live"
+      "score_home": 1,
+      "score_away": 4,
+      "status": "final"
     },
     {
       "id": 95,
@@ -2023,8 +2023,8 @@
       "stage": "qf",
       "stage_label_pt": "Quartos de Final",
       "group": null,
-      "home": "Venc. J93",
-      "away": "Venc. J94",
+      "home": "Espanha",
+      "away": "Bélgica",
       "kickoff_local": "2026-07-10T20:00:00+01:00",
       "all_day": false,
       "simultaneous": false,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-07-07T00:05:36.746389+00:00"
+  "last_fetch": "2026-07-07T04:31:47.545954+00:00"
 }
