@@ -2063,8 +2063,8 @@
       "stage": "qf",
       "stage_label_pt": "Quartos de Final",
       "group": null,
-      "home": "Venc. J95",
-      "away": "Venc. J96",
+      "home": "Argentina",
+      "away": "Suíça",
       "kickoff_local": "2026-07-12T02:00:00+01:00",
       "all_day": false,
       "simultaneous": false,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-07-07T22:09:23.025020+00:00"
+  "last_fetch": "2026-07-07T23:28:31.949937+00:00"
 }
