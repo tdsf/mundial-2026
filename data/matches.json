@@ -2054,9 +2054,9 @@
         "Quartos"
       ],
       "external_id_espn": "760512",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 0,
+      "status": "live"
     },
     {
       "id": 100,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-07-11T20:07:26.525885+00:00"
+  "last_fetch": "2026-07-11T21:20:57.074216+00:00"
 }
