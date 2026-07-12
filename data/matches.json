@@ -2074,9 +2074,9 @@
         "Quartos"
       ],
       "external_id_espn": "760513",
-      "score_home": 0,
-      "score_away": 0,
-      "status": "live"
+      "score_home": null,
+      "score_away": null,
+      "status": "scheduled"
     },
     {
       "id": 101,
@@ -2103,8 +2103,8 @@
       "stage": "sf",
       "stage_label_pt": "Meia-Final",
       "group": null,
-      "home": "Venc. J99",
-      "away": "Venc. J100",
+      "home": "Inglaterra",
+      "away": "Argentina",
       "kickoff_local": "2026-07-15T20:00:00+01:00",
       "all_day": false,
       "simultaneous": false,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-07-12T01:02:30.181121+00:00"
+  "last_fetch": "2026-07-12T04:50:37.376025+00:00"
 }
