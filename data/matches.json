@@ -2114,9 +2114,9 @@
         "Meias-Finais"
       ],
       "external_id_espn": "760515",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 0,
+      "status": "live"
     },
     {
       "id": 103,
@@ -2159,5 +2159,5 @@
       "status": "scheduled"
     }
   ],
-  "last_fetch": "2026-07-15T17:45:57.078457+00:00"
+  "last_fetch": "2026-07-15T19:06:02.113584+00:00"
 }
