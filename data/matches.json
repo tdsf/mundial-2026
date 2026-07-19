@@ -2154,10 +2154,10 @@
         "Final"
       ],
       "external_id_espn": "760517",
-      "score_home": null,
-      "score_away": null,
-      "status": "scheduled"
+      "score_home": 0,
+      "score_away": 0,
+      "status": "live"
     }
   ],
-  "last_fetch": "2026-07-19T17:56:18.251619+00:00"
+  "last_fetch": "2026-07-19T19:06:34.425017+00:00"
 }
